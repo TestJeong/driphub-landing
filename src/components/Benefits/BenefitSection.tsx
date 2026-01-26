@@ -44,7 +44,7 @@ export const childVariants = {
             duration: 1,
         }
     },
-};
+} satisfies Variants;
 
 const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
     const { title, description, imageSrc, bullets } = benefit;

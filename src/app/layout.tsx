@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { siteDetails } from '@/data/siteDetails';
 
 import "./globals.css";
+import React from "react";
 
 const manrope = Manrope({ subsets: ['latin'] });
 const sourceSans = Source_Sans_3({ subsets: ['latin'] });
@@ -14,6 +15,9 @@ const sourceSans = Source_Sans_3({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: siteDetails.metadata.title,
   description: siteDetails.metadata.description,
+  verification: {
+    google: 'k4GMTrJ7aK5-mTusVDganfjKamGPy5Sauf27kZlk2rA',
+  },
   openGraph: {
     title: siteDetails.metadata.title,
     description: siteDetails.metadata.description,
@@ -21,7 +25,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: '/images/app-logo.svg',
         width: 1200,
         height: 675,
         alt: siteDetails.siteName,

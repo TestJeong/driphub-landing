@@ -1,6 +1,7 @@
 import { ctaDetails } from "@/data/cta"
 
 import AppStoreButton from "./AppStoreButton"
+import React from "react";
 
 const CTA: React.FC = () => {
     return (

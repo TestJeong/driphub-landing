@@ -7,7 +7,7 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "커피를 마시는 순간을, 기록으로 남깁니다.",
     quickLinks: [
         // {
         //     text: "Features",
@@ -22,7 +22,7 @@ export const footerDetails: {
         //     url: "#testimonials"
         // }
     ],
-    email: 'address@yoursite.com',
+    email: 'beanbox.coffee2024@gmail.com',
     telephone: '+1 (123) 456-7890',
     socials: {
         // github: 'https://github.com',

@@ -36,7 +36,7 @@ export interface ITestimonial {
 
 export interface IStats {
     title: string;
-    icon: import("react").ReactNode;
+    icon: any;
     description: string;
 }
 

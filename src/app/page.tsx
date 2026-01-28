@@ -26,13 +26,13 @@ const HomePage: () => React.ReactElement = () => {
         {/*  <Pricing />*/}
         {/*</Section>*/}
 
-        <Section
-          id="testimonials"
-          title="What Our Clients Say"
-          description="Hear from those who have partnered with us."
-        >
-          <Testimonials />
-        </Section>
+        {/*<Section*/}
+        {/*  id="testimonials"*/}
+        {/*  title="What Our Clients Say"*/}
+        {/*  description="Hear from those who have partnered with us."*/}
+        {/*>*/}
+        {/*  <Testimonials />*/}
+        {/*</Section>*/}
 
         {/*<FAQ />*/}
 
